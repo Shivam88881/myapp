@@ -1,0 +1,21 @@
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.month {
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for days of the week */
+  gap: 3px;
+  width: 100px;
+}
+
+.day {
+  width: 12px;
+  height: 12px;
+  border-radius: 15%;
+}
